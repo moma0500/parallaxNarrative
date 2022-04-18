@@ -1,6 +1,5 @@
 //css grid, flex, media query
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,200;0,300;0,500;0,600;0,800;1,200;1,300;1,500;1,600;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
 *,
 *:after,
 *:before {
@@ -23,36 +22,12 @@ header {
   color: $bgNavy;
 }
 
-// .container {
-//   max-width: 1300px;
-//   margin: 0 auto;
-//   display: grid;
-//   width: 100vw;
-//   height: 100vh;
-//   grid-template-columns: 1fr 3.5fr 1fr;
-//   grid-template-areas: "heady heady heady" "navvy navvy navvy" "aside1 mainy aside2" "aside1 mainy aside2" "aside1 mainy aside2" "footy footy footy";
-// }
 
-// .photoContainer {
-//   display: grid;
-//   margin: auto;
-//   grid-template-columns: 1fr 1fr 1fr;
-//   padding: 30px;
-//   margin-left: 30px;
-// }
-//
-// .photo {
-//   padding: 20px;
-// }
-//
-// .photo:hover {
-//   border: 10px $bgNavy solid;
-// }
-
-// header {
-//   grid-area: heady;
-// }
-
+header {
+  height: 100px;
+  margin-top: -130px;
+  padding: 0px;
+}
 
 main {
   grid-area: mainy;
@@ -69,16 +44,12 @@ main {
   // padding-right: 15px;
 }
 
+.GO_BIG {
+  height: 500px;
+  margin-top: -250px;
+  background: orange;
+}
 
-
-// .sideText {
-//   padding: $textPadding;
-// }
-//
-// footer {
-//   grid-area: footy;
-//   background: $bgYellow;
-// }
 
 nav ul {
   display: flex;

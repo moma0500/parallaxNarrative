@@ -1,7 +1,7 @@
-const HtmlWebpackPlugin =  require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
-  mode : 'development',
-  entry : './js/app.js',
+  mode: 'development',
+  entry: './js/app.js',
   devServer: {
     liveReload: true,
     hot: true,
