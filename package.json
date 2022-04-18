@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "./node_modules/.bin/webpack -w"
+    "build": "webpack -w"
   },
   "keywords": [
     "webpack",
@@ -16,14 +16,20 @@
   ],
   "author": "McClain Martensen",
   "license": "MIT",
-  "dependencies": {
-    "webpack": "^5.69.1",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "sass": "^1.50.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"
   },
-  "devDependencies": {
-    "css-loader": "^6.6.0",
-    "sass": "^1.49.9",
-    "sass-loader": "^12.6.0",
-    "style-loader": "^3.3.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moma0500/parallaxNarrative.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moma0500/parallaxNarrative/issues"
+  },
+  "homepage": "https://github.com/moma0500/parallaxNarrative#readme"
 }
