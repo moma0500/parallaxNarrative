@@ -1,0 +1,210 @@
+//css grid, flex, media query
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,200;0,300;0,500;0,600;0,800;1,200;1,300;1,500;1,600;1,800&display=swap');
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+aside,
+footer,
+header,
+main,
+nav {
+  // border: 1px black solid;
+}
+
+footer,
+header {
+  text-align: center;
+  color: $bgNavy;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 1fr 3.5fr 1fr;
+  grid-template-areas: "heady heady heady" "navvy navvy navvy" "aside1 mainy aside2" "aside1 mainy aside2" "aside1 mainy aside2" "footy footy footy";
+}
+
+.photoContainer {
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.photo {
+  padding: 20px;
+}
+
+.photo:hover {
+  border: 10px $bgNavy solid;
+}
+
+header {
+  grid-area: heady;
+}
+
+nav {
+  grid-area: navvy;
+  padding-bottom: 50px;
+}
+
+main {
+  grid-area: mainy;
+  background: $bgBlue;
+  max-height: 100%;
+}
+
+#mainy {
+  grid-area: mainy;
+  max-height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#aside1 {
+  grid-area: aside1;
+  background: $bgYellow;
+  padding: $textPadding;
+
+}
+
+#aside2 {
+  grid-area: aside2;
+  background: $bgYellow;
+  padding: $textPadding;
+}
+
+.sideText {
+  padding: $textPadding;
+}
+
+footer {
+  grid-area: footy;
+  background: $bgYellow;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.nav_button {
+  padding: 20px;
+  background: $bgNavy;
+  border-radius: 10px;
+  color: $bgYellow;
+  border: 0;
+}
+
+.nav_button:hover {
+  color: $bgNavy;
+  background: $bgYellow;
+
+}
+
+.skill-icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+
+}
+
+.skill-icons>img {
+  display: flex;
+  padding: 50px;
+  height: 128px;
+  flex:1;
+  border: 1px solid #ccc;
+}
+
+#p1,
+#p2,
+#p3,
+#p4 {
+  padding: $textPadding;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#pHead {
+  padding-bottom: 8px;
+}
+
+.iconHead{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.material-icons-outlined{
+  padding: 20px;
+  font-size: 40px;  /* Preferred icon size */
+
+}
+
+span:hover{
+  color: $bgYellow;
+}
+
+
+//SMALLER WINDOW
+@media screen and (min-width: 641px) and (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "heady heady" "navvy navvy" "mainy mainy" "aside1 aside2" "footy footy";
+  }
+
+  #aside1 {
+    grid-area: aside1;
+    text-align: center;
+    padding: $textPadding;
+  }
+
+  #aside2 {
+    grid-area: aside2;
+    text-align: center;
+    padding: $textPadding;
+  }
+
+  .photoContainer {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+  }
+}
+//LARGER WINDOWS
+@media screen and (max-width: 640px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "heady" "mainy" "aside1" "aside2" "navvy" "footy";
+  }
+
+  nav ul {
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+  }
+}

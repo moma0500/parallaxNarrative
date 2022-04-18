@@ -1,0 +1,15 @@
+/* TEAM */
+    Developers: McClain Martensen
+    Designers:  McClain Martensen
+
+    Contact:    moma0500@colorado.edu
+
+/* THANKS */
+    humanstxt
+    Website: https://humanstxt.org/
+
+/* SITE */
+  Last Update: 02/13/2022
+  Language: English
+  Standards: HTML5, CSS3, SCSS, Webpack, JavaScript
+  IDE: Atom
