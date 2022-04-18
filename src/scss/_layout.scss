@@ -49,9 +49,9 @@ header {
 //   border: 10px $bgNavy solid;
 // }
 
-header {
-  grid-area: heady;
-}
+// header {
+//   grid-area: heady;
+// }
 
 
 main {
@@ -135,16 +135,16 @@ nav ul li {
   padding-bottom: 8px;
 }
 
-.iconHead{
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.material-icons-outlined{
-  padding: 20px;
-  font-size: 40px;  /* Preferred icon size */
-
-}
+// .iconHead{
+//   text-align: center;
+//   padding-bottom: 20px;
+// }
+//
+// .material-icons-outlined{
+//   padding: 20px;
+//   font-size: 40px;  /* Preferred icon size */
+//
+// }
 
 span:hover{
   color: $bgYellow;
