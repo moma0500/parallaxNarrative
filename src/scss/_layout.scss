@@ -95,15 +95,28 @@ section {
   background: green;
 }
 
-section .container {
-
-
+section .GO_HOME {
+  width: 100%;
+  position: relative;
 }
+
+section .container_GO_HOME {}
 
 .GO_BIG {
   height: 450px;
   background: $bgYellow;
   text-align: bottom;
+}
+
+.shadow {
+  position: absolute;
+  bottom: 100%;
+  height: 300px;
+  width:100%;
+  left: 0;
+  z-index: 15;
+  background: blue;
+
 }
 
 .title {
