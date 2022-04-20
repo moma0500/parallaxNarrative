@@ -95,7 +95,7 @@ section {
   background: green;
 }
 
-section .container_GO_HOME {
+section .go_home_container {
   height: 100px;
   background: grey;
 }
@@ -104,13 +104,6 @@ section .container_GO_HOME {
   height: 450px;
   background: $bgYellow;
   text-align: bottom;
-}
-
-.GO_HOME {
-  width: 100%;
-  height: 600px;
-  background: rgba(0,0,10,.3);
-  position: relative;
 }
 
 
