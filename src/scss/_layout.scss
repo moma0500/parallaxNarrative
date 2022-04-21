@@ -53,52 +53,23 @@ section {
   font-stretch: ultra-expanded;
   font-size: 25vw;
   margin-top: 35px;
-  text-shadow:
-    10px -10px white,
-    20px -20px lightblue,
-    30px -30px green,
-    40px -40px orange,
-    50px -50px $bgNavy,
-    60px -60px white,
-    70px -70px green,
-    80px -80px lightblue,
-    90px -90px green,
-    100px -100px orange,
+  text-shadow: 10px -10px white, 20px -20px lightblue, 30px -30px green, 40px -40px orange, 50px -50px $bgNavy, 60px -60px white, 70px -70px green, 80px -80px lightblue, 90px -90px green, 100px -100px orange,;
 }
-
-
 
 .Go_Home_Title {
   font-weight: 800;
   text-align: center;
-  text-align: bottom;
+  margin-top: -25px;
+  padding-left: 100px;
+  // border: 1px black solid;
   font-stretch: ultra-expanded;
   font-size: 20vw;
-  margin-top: 35px;
-  text-shadow:
-  -10px 10px white,
-  -20px 20px lightblue,
-  -30px 30px green,
-  -40px 40px orange,
-  -50px 50px $bgNavy,
-  -60px 60px white,
-  -70px 70px green,
-  -80px 80px lightblue,
-  -90px 90px green,
-    -100px 100px orange,
+  text-shadow: -10px 10px white, -20px 20px lightblue, -30px 30px green, -40px 40px orange, -50px 50px $bgNavy, -60px 60px white, -70px 70px green, -80px 80px lightblue, -90px 90px green, -100px 100px orange,;
 }
 
 .container {
-  max-width: 70rem;
-  padding: 0 2rem;
-  margin: 0 auto;
-}
-
-.shadow {
-  height: 200px;
-  z-index: 5;
-  background: linear-gradient(to top, #151515, transparent);
-
+  // border: 3px black solid;
+  position: relative;
 }
 
 .mountain1 {
