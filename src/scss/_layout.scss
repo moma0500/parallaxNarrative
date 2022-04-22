@@ -40,10 +40,12 @@ section {
 }
 
 .GO_BIG {
-  height: 32vw;
+  height: 35vw;
   background: none;
   text-align: bottom;
   padding-right: 50px;
+  border-top: 20px solid $bgGreen;
+  border-bottom: 20px solid $bgGreen;
 
 }
 
@@ -53,17 +55,41 @@ section {
   text-align: bottom;
   font-stretch: ultra-expanded;
   font-size: 25vw;
-  margin-top: 35px;
-  text-shadow: 10px -10px orange,
-  15px -15px green,
-  20px -20px orange,
-  25px -25px green,
-  30px -30px orange,
-  35px -35px green,
-  40px -40px orange,
+  margin-top: -10px;
+  color: $bgGreen;
+  text-shadow: 10px -10px white,
+  15px -15px $bgGreen,
+  20px -20px white,
+  25px -25px $bgGreen,
+  30px -30px white,
+  35px -35px $bgGreen,
+  40px -40px white,
+}
 
+.GO_HOME{
+  height: 60vw;
+  border-top: 20px solid $bgGreen;
+  border-bottom: 20px solid $bgGreen;
 
+}
 
+.homeElement {
+  margin-top: -280px;
+  color: $bgGreen;
+  font-weight: 800;
+  text-align: center;
+  padding-left: 100px;
+  // border: 1px black solid;
+  font-size: 22vw;
+  color: $bgGreen;
+  text-shadow:
+  -10px 10px white,
+  -15px 15px $bgGreen,
+  -20px 20px white,
+  -25px 25px $bgGreen,
+  -30px 30px white,
+  -35px 35px $bgGreen,
+  -40px 40px white
 }
 
 .Go_Home_Title {
@@ -73,8 +99,16 @@ section {
   padding-left: 100px;
   // border: 1px black solid;
   font-stretch: ultra-expanded;
-  font-size: 20vw;
-  text-shadow: -10px 10px white, -20px 20px lightblue, -30px 30px green, -40px 40px orange, -50px 50px $bgNavy, -60px 60px white, -70px 70px green, -80px 80px lightblue, -90px 90px green, -100px 100px orange,;
+  font-size: 22vw;
+  color: $bgGreen;
+  text-shadow:
+  -10px 10px white,
+  -15px 15px $bgGreen,
+  -20px 20px white,
+  -25px 25px $bgGreen,
+  -30px 30px white,
+  -35px 35px $bgGreen,
+  -40px 40px white
 }
 
 .parallax_container {
@@ -136,7 +170,7 @@ section {
 #mainy {
   grid-area: mainy;
   max-height: 100%;
-  background: green;
+  // background: $bgGreen;
   // padding-left: 15px;
   // padding-right: 15px;
 }
@@ -152,14 +186,14 @@ nav ul li {
 }
 // .nav_button {
 //   padding: 20px;
-//   background: $bgNavy;
+//   background: $bgGreen;
 //   border-radius: 10px;
 //   color: $bgHotPink;
 //   border: 0;
 // }
 //
 // .nav_button:hover {
-//   color: $bgNavy;
+//   color: $bgGreen;
 //   background: $bgHotPink;
 //
 // }
@@ -251,6 +285,52 @@ span:hover {
     margin-top: -100px;
     z-index: 17;
   }
+
+  .homeElement {
+    margin-top: -140px;
+    color: $bgGreen;
+    font-weight: 800;
+    text-align: center;
+    padding-left: 100px;
+    // border: 1px black solid;
+    font-size: 20vw;
+    color: $bgGreen;
+    text-shadow:
+    -10px 10px white,
+    -15px 15px $bgGreen,
+    -20px 20px white,
+    -25px 25px $bgGreen,
+    -30px 30px white,
+    -35px 35px $bgGreen,
+    -40px 40px white
+  }
+
+
+}
+
+//EVEN SMALLER WINDOW
+@media screen and (max-width: 640px) {
+
+  .homeElement {
+    margin-top: -70px;
+    color: $bgGreen;
+    font-weight: 800;
+    text-align: center;
+    padding-left: 50px;
+    // border: 1px black solid;
+    font-size: 20vw;
+    color: $bgGreen;
+    text-shadow:
+    -10px 10px white,
+    -15px 15px $bgGreen,
+    -20px 20px white,
+    -25px 25px $bgGreen,
+    -30px 30px white,
+    -35px 35px $bgGreen,
+    -40px 40px white
+  }
+
+
 }
 //LARGER WINDOWS
 @media screen and (max-width: 640px) {

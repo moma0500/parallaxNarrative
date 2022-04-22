@@ -5,32 +5,31 @@ body {
   background: none;
   font-family: $font1;
   font-size: 16px;
-  color: $bgNavy;
+  background: $bgGrey;
 }
 
 h1 {
   font-family: $font1;
-  color: green;
 }
 
 h2 {
-  color: $bgNavy;
+  color: $bgGreen;
   font-size: 20px;
 }
 
 h3 {
-  color: $bgNavy;
+  color: $bgGreen;
   font-size: 12px;
 }
 
 h4 {
-  color: $bgNavy;
+  color: $bgGreen;
   font-size: 8px;
   font-weight: 200;
 }
 
 p {
-  color: $bgNavy;
+  color: $bgGreen;
   font-weight: 200;
 }
 
@@ -42,7 +41,7 @@ a {
 
 a:hover {
   font-size: 15px;
-  color: $bgNavy;
+  color: $bgGreen;
   font-weight: 700;
   text-decoration: none;
 }
