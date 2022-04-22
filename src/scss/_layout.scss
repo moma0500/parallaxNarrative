@@ -20,7 +20,7 @@ nav {
 footer,
 header {
   text-align: center;
-  color: $bgNavy;
+  color: white;
 }
 // header {
 //   height: 60vh;
@@ -41,9 +41,10 @@ section {
 
 .GO_BIG {
   height: 32vw;
-  background: $bgHotPink;
+  background: none;
   text-align: bottom;
   padding-right: 50px;
+
 }
 
 .Go_Big_Title {
@@ -53,16 +54,16 @@ section {
   font-stretch: ultra-expanded;
   font-size: 25vw;
   margin-top: 35px;
-  text-shadow: 10px -10px $bgHotPink,
-  20px -20px lightblue,
-  30px -30px green,
+  text-shadow: 10px -10px orange,
+  15px -15px green,
+  20px -20px orange,
+  25px -25px green,
+  30px -30px orange,
+  35px -35px green,
   40px -40px orange,
-  50px -50px $bgNavy,
-  60px -60px white,
-  70px -70px green,
-  80px -80px lightblue,
-  90px -90px green,
-  100px -100px orange,;
+
+
+
 }
 
 .Go_Home_Title {
@@ -153,13 +154,13 @@ nav ul li {
 //   padding: 20px;
 //   background: $bgNavy;
 //   border-radius: 10px;
-//   color: $bgYellow;
+//   color: $bgHotPink;
 //   border: 0;
 // }
 //
 // .nav_button:hover {
 //   color: $bgNavy;
-//   background: $bgYellow;
+//   background: $bgHotPink;
 //
 // }
 //
@@ -205,7 +206,7 @@ nav ul li {
 // }
 
 span:hover {
-  color: $bgYellow;
+  color: $bgHotPink;
 }
 //SMALLER WINDOW
 @media screen and (min-width: 641px) and (max-width: 900px) {
