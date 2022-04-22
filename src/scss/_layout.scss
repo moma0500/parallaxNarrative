@@ -41,7 +41,7 @@ section {
 
 .GO_BIG {
   height: 32vw;
-  background: black;
+  background: $bgHotPink;
   text-align: bottom;
   padding-right: 50px;
 }
@@ -53,7 +53,16 @@ section {
   font-stretch: ultra-expanded;
   font-size: 25vw;
   margin-top: 35px;
-  text-shadow: 10px -10px white, 20px -20px lightblue, 30px -30px green, 40px -40px orange, 50px -50px $bgNavy, 60px -60px white, 70px -70px green, 80px -80px lightblue, 90px -90px green, 100px -100px orange,;
+  text-shadow: 10px -10px $bgHotPink,
+  20px -20px lightblue,
+  30px -30px green,
+  40px -40px orange,
+  50px -50px $bgNavy,
+  60px -60px white,
+  70px -70px green,
+  80px -80px lightblue,
+  90px -90px green,
+  100px -100px orange,;
 }
 
 .Go_Home_Title {
@@ -67,7 +76,7 @@ section {
   text-shadow: -10px 10px white, -20px 20px lightblue, -30px 30px green, -40px 40px orange, -50px 50px $bgNavy, -60px 60px white, -70px 70px green, -80px 80px lightblue, -90px 90px green, -100px 100px orange,;
 }
 
-.parallax_container{
+.parallax_container {
   height: 800px;
 }
 
@@ -75,7 +84,6 @@ section {
   // border: 3px black solid;
   position: relative;
 }
-
 
 .person {
   position: absolute;
@@ -223,7 +231,6 @@ span:hover {
   //   grid-template-columns: 1fr 1fr 1fr;
   //   padding: 20px;
   // }
-
   .person {
     position: absolute;
     // border: 1px solid black;
@@ -243,7 +250,6 @@ span:hover {
     margin-top: -100px;
     z-index: 17;
   }
-
 }
 //LARGER WINDOWS
 @media screen and (max-width: 640px) {
