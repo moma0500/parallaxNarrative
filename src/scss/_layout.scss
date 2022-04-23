@@ -352,11 +352,70 @@ span:hover {
     -40px 40px white
   }
 
+  .man {
+    position: absolute;
+    // border: 1px solid black;
+    width: 75px;
+    margin-left: 320px;
+    margin-top: -455px;
+    right: 100px;
+    left: 0;
+    z-index: 17;
+  }
+
+  .cactus {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    // margin-top: 200px;
+    left: 0;
+    margin-top: -10px;
+    margin-left: 40px;
+    z-index: 20;
+    // border: 1px solid black;
+  }
+
+
+  .house {
+    position: absolute;
+    // border: 1px solid black;
+    width: 350px;
+    left: 200px;
+    margin-top: -100px;
+    z-index: 19;
+  }
+
 
 }
 
 //EVEN SMALLER WINDOW
 @media screen and (max-width: 640px) {
+  .GO_BIG {
+    height: 40vw;
+    background: none;
+    text-align: bottom;
+    padding-right: 50px;
+    border-top: 20px solid $bgGreen;
+    border-bottom: 20px solid $bgGreen;
+
+  }
+
+  .Go_Big_Title {
+    font-weight: 800;
+    text-align: center;
+    text-align: bottom;
+    font-stretch: ultra-expanded;
+    font-size: 25vw;
+    margin-top: 10px;
+    color: $bgGreen;
+    text-shadow: 10px -10px white,
+    15px -15px $bgGreen,
+    20px -20px white,
+    25px -25px $bgGreen,
+    30px -30px white,
+    35px -35px $bgGreen,
+    40px -40px white,
+  }
 
   .homeElement {
     margin-top: -90px;
@@ -418,6 +477,41 @@ span:hover {
     left: 125px;
     margin-top: -100px;
     z-index: 17;
+  }
+
+  .man {
+    position: absolute;
+    // border: 1px solid black;
+    width: 75px;
+    margin-left: 220px;
+    margin-top: -255px;
+    right: 100px;
+    left: 0;
+    z-index: 17;
+  }
+
+  .cactus {
+    position: absolute;
+    width: 0;
+
+    // border: 1px solid black;
+  }
+
+
+  .house {
+    position: absolute;
+    // border: 1px solid black;
+    width: 300px;
+    left: 100px;
+    margin-top: 40px;
+    z-index: 19;
+  }
+
+  .desert {
+    position: absolute;
+    width: 1000px;
+    bottom: 550px;
+    right: 0;
   }
 
 
