@@ -74,7 +74,7 @@ section {
 }
 
 .homeElement {
-  margin-top: -280px;
+  margin-top: -240px;
   color: $bgGreen;
   font-weight: 800;
   text-align: center;
@@ -142,15 +142,8 @@ section {
   // border: 1px solid black;
 }
 
-.mountain2 {
-  position: absolute;
-  width: 1100px;
-  bottom: -100px;
-  left: 0;
-  z-index: 18;
-}
 
-.mountain3 {
+.stars {
   position: absolute;
   // border: 1px solid black;
   width: 350px;
@@ -269,18 +262,19 @@ span:hover {
   .person {
     position: absolute;
     // border: 1px solid black;
-    width: 300px;
-    margin-right: 300px;
+    width: 350px;
+    left: 0;
+    margin-left: 250px;
     // margin-top: 400px;
     // bottom: -100px;
-    left: 0;
+
     z-index: 19;
   }
 
-  .mountain3 {
+  .stars {
     position: absolute;
     // border: 1px solid black;
-    width: 400px;
+    width: 350px;
     left: 250px;
     margin-top: -100px;
     z-index: 17;
@@ -329,6 +323,28 @@ span:hover {
     -35px 35px $bgGreen,
     -40px 40px white
   }
+
+  .person {
+    position: absolute;
+    // border: 1px solid black;
+    width: 350px;
+    left: 0;
+    margin-left: 100px;
+    // margin-top: 400px;
+    // bottom: -100px;
+
+    z-index: 19;
+  }
+
+  .stars {
+    position: absolute;
+    // border: 1px solid black;
+    width: 350px;
+    left: 125px;
+    margin-top: -100px;
+    z-index: 17;
+  }
+
 
 
 }
