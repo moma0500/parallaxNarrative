@@ -74,7 +74,7 @@ section {
 }
 
 .homeElement {
-  margin-top: -240px;
+  margin-top: -290px;
   color: $bgGreen;
   font-weight: 800;
   text-align: center;
@@ -306,13 +306,35 @@ span:hover {
 @media screen and (max-width: 640px) {
 
   .homeElement {
-    margin-top: -70px;
+    margin-top: -90px;
     color: $bgGreen;
     font-weight: 800;
     text-align: center;
-    padding-left: 50px;
+    padding-right: 50px;
     // border: 1px black solid;
-    font-size: 20vw;
+    font-size: 18vw;
+    color: $bgGreen;
+    text-shadow:
+    -10px 10px white,
+    -15px 15px $bgGreen,
+    -20px 20px white,
+    -25px 25px $bgGreen,
+    -30px 30px white,
+    -35px 35px $bgGreen,
+    -40px 40px white
+  }
+
+
+  .Go_Home_Title {
+    font-weight: 800;
+    text-align: center;
+    margin-top: -25px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 10px;
+    // border: 1px black solid;
+    font-stretch: ultra-expanded;
+    font-size: 18vw;
     color: $bgGreen;
     text-shadow:
     -10px 10px white,
